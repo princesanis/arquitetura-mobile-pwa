@@ -1,0 +1,27 @@
+[
+    {
+        "nome": "Unidade Buritis",
+        "url": "images/gym01.jpg",
+        "avaliacao": "4.86"
+    },
+    {
+        "nome": "Unidade Carmo",
+        "url": "images/gym02.jpg",
+        "avaliacao": "4.92"
+    },
+    {
+        "nome": "Unidade Centro",
+        "url": "images/gym03.jpg",
+        "avaliacao": "4.75"
+    },
+    {
+        "nome": "Unidade Funcionários",
+        "url": "images/gym04.jpg",
+        "avaliacao": "4.98"
+    },
+    {
+        "nome": "Unidade Lourdes",
+        "url": "images/gym05.jpg",
+        "avaliacao": "4.96"
+    }    
+]
