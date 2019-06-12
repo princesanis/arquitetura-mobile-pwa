@@ -94,14 +94,14 @@ ajax.onreadystatechange = function() {
 }
  
  
-var template_card = function(cidade,url,avaliacao){
+var template_card = function(nome,url,avaliacao){
  
     return '<div class="planned-trips__card">\n' +
     '                        <div class="planned-trip__image">\n' +
     '                            <img src="'+url+'" alt="imagem da viagem" />\n' +
     '                        </div>\n' +
     '                        <div class="planned-trip__description">\n' +
-    '                            <span>'+cidade+'</span>\n' +
+    '                            <span>'+nome+'</span>\n' +
     '                            <div class="pinned-trip__itenary">\n' +
     '                                <span>7</span><span>Dias</span>\n' +
     '                                <span>56 <i class="fa fa-camera-retro"></i></span>\n' +
@@ -121,7 +121,7 @@ Experiencia de Notificação
 #############################*/
 let isSubscribed = false;
  
-const applicationServerPublicKey = 'BAbLoK3258yb1Qt8XgCLVQtu3FgiSoqyb6XbduE5WlYKdYkoyPHnItr2P_BjZsxMJ7VHh_yAYjmPEghjmpS3rhw';
+const applicationServerPublicKey = 'BI0GPKpRQv7WvABcvQyaPFV-_fUYXXqxYYQuFl5yCDhAZaBG8pz1L8ydiiMBB1PF8JupkhBF67Tccw812_Yub_E';
 const pushButton = document.getElementById('butPush');
  
  

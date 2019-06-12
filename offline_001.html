@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Viagens - Marcos</title>
+    <title>Academias - Prince</title>
     <link rel="manifest" href="manifest.json">
     <meta name="theme-color" content="#fb6b55" />
     <link rel="shortcut icon" href="favicon.ico" />
@@ -211,7 +211,7 @@
 <body>
     <header class="header">
         <h1>
-            Academias - PWA GYM
+            Academias - Prince
         </h1>
     </header>
     <main class="main">
@@ -297,14 +297,14 @@
             }
         }
 
-        var template_card = function (cidade, url, avaliacao) {
+        var template_card = function (nome, url, avaliacao) {
 
             return '<div class="planned-trips__card">\n' +
                 '                        <div class="planned-trip__image">\n' +
-                '                            <img src="' + url + '" alt="imagem da viagem" />\n' +
+                '                            <img src="' + url + '" alt="imagem da academia" />\n' +
                 '                        </div>\n' +
                 '                        <div class="planned-trip__description">\n' +
-                '                            <span>' + cidade + '</span>\n' +
+                '                            <span>' + nome + '</span>\n' +
                 '                            <div class="pinned-trip__itenary">\n' +
                 '                                <span>7</span><span>Dias</span>\n' +
                 '                                <span>56 <i class="fa fa-camera-retro"></i></span>\n' +
